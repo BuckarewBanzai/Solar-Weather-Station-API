@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 from json import dumps
 from flask_jsonpify import jsonify
 
-db_connect = create_engine('sqlite:////home/di0de/Solar-Weather-Station/backend/apidatabase.db')
+db_connect = create_engine('sqlite:////app/apidatabase.db')
 app = Flask(__name__)
 api = Api(app)
 
@@ -96,4 +96,4 @@ api.add_resource(Power, '/nodes/<nodeid>/power')
 
 
 if __name__ == '__main__':
-     app.run()
+     app.run(host='0.0.0.0', port=8081)
