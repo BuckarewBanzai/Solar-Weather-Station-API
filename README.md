@@ -28,8 +28,8 @@ API for weather.zerogravityantfarm.com
 Api example followed from here: https://github.com/sagaragarwal94/python_rest_flask
 
 
-*Build*
+**Build**
 sudo docker build -t weatherapi .
 
-*Run*
+**Run**
 sudo docker run -v /home/jcox/weatherstation/api:/app -p 8081:8081 weatherapi 
