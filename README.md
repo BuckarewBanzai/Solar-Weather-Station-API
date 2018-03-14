@@ -26,3 +26,10 @@ API for weather.zerogravityantfarm.com
 		POST - Write new sensor data
 
 Api example followed from here: https://github.com/sagaragarwal94/python_rest_flask
+
+
+*Build*
+sudo docker build -t weatherapi .
+
+*Run*
+sudo docker run -v /home/jcox/weatherstation/api:/app -p 8081:8081 weatherapi 
