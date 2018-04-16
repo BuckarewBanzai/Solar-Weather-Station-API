@@ -115,7 +115,7 @@ class Multidata(Resource):
             query = conn.execute("insert into multisensor values('{0}', '{1}', '{2}', '{3}', '{4}')".format(nodeid, date, humidity, pressure, temperature))
             return {'status':'success'}
         except Exception as e:
-            return {'error':nodeid + ' not found'
+            return {'error':nodeid + ' not found'}
 
 class Power(Resource):
     def get(self, nodeid):
