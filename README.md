@@ -4,7 +4,7 @@ API for weather.zerogravityantfarm.com
 
 **API Endpoint Resources:**
 
-        /register
+	/register
 		GET - Generate a nodeid for new nodes
 
 	/nodes
