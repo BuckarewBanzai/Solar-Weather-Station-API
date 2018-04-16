@@ -4,6 +4,9 @@ API for weather.zerogravityantfarm.com
 
 **API Endpoint Resources:**
 
+        /register
+		GET - Generate a nodeid for new nodes
+
 	/nodes
 		GET - List nodes, locations, and status (online/offline)
 		POST - Add new nodes to the system
