@@ -1,5 +1,5 @@
 # Solar-Weather-Station-API
-API for weather.zerogravityantfarm.com
+DEPRECATED
 
 
 **API Endpoint Resources:**
