@@ -37,4 +37,4 @@ sudo docker build -t weatherapi .
 
 **Run**
 
-sudo docker run -v /home/jcox/weatherstation/api:/app -p 8081:8081 weatherapi 
+sudo docker run -v /home/user/weatherstation/api:/app -p 8081:8081 weatherapi 
